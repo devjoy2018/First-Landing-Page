@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+.first {
+    display: flex;
+    /* horizontally aligns child divs */
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2937;
+    
+}
+
+.links {
+    display: flex;
+    /* horizontally aligns child divs */
+    gap: 20px;
+    font-size: 18px;
+    
+    
+}
+
+a {
+    text-decoration: none;
+    /* removes underlines from links */
+    color: #e5e7eb;
+}
+
+.logo {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.first-one {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.awesome-site {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 800;
+}
+
+.para {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 0;
+    /* this makes the button look flat rather then the default 3d look */
+    font-weight: bold;
+}
+
+.firstOne-one {
+    width: 50%;
+    /* half space for this container */
+    height: auto;
+}
+
+
+.firstOne-two {
+    width: 50%;
+    /* half space for this container */
+    height: auto;
+}
+
+img {
+    float: right;
+    /* the image floats to the right of the div container */
+    width: 80%;
+    height: auto;
+}
