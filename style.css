@@ -78,9 +78,34 @@ button {
     height: auto;
 }
 
-img {
+.imgA {
     float: right;
     /* the image floats to the right of the div container */
     width: 80%;
     height: auto;
 }
+/* ----------------------------------------------------------------- */
+.second-one {
+    text-align: center;
+}
+
+.images {
+    background-color: aqua;
+    display: flex;
+}
+
+.imgB {
+    width: 100%;
+    height: auto;
+    /* setting width and height to 100% and auto helped fix overflowing content from the container */
+}
+
+figure {
+    background-color: bisque;
+}
+
+figcaption {
+    text-align: center;
+    /* aligns image description to center */
+}
+
