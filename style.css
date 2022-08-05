@@ -87,10 +87,13 @@ button {
 /* ----------------------------------------------------------------- */
 .second-one {
     text-align: center;
+    
+    color: #1f2937;
+    
 }
 
 .images {
-    background-color: aqua;
+    /* background-color: aqua; */
     display: flex;
 }
 
@@ -100,12 +103,40 @@ button {
     /* setting width and height to 100% and auto helped fix overflowing content from the container */
 }
 
-figure {
+/* figure {
     background-color: bisque;
-}
+} */
 
 figcaption {
     text-align: center;
     /* aligns image description to center */
 }
 
+.info {
+    font-size: 36px;
+    font-weight: 800;
+    /* makes text extra bold  */
+}
+
+/* ------------------------------------------------------------------------------------------------- */
+
+.third {
+    background-color: #e5e7eb;
+}
+
+.third-one {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.third-two {
+    font-weight: bold;
+}
+
+/* --------------------------------------------------------------------------------------- */
+
+footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+}
