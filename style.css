@@ -2,6 +2,8 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    margin: 0 0;
+    /* removes default margins from all four sides  */
 }
 
 
@@ -12,6 +14,11 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: #1f2937;
+    padding-bottom: 10px;
+    /* ------------------------------------------------------- */
+    padding-top: 20px;
+    padding-right: 10%;
+    padding-left: 10%;
     
 }
 
@@ -39,6 +46,10 @@ a {
     background-color: #1f2937;
     display: flex;
     justify-content: space-between;
+    padding-bottom: 40px;
+    /* ------------------------------------------------------------- */
+    padding-right: 10%;
+    padding-left: 10%;
 }
 
 
@@ -46,6 +57,8 @@ a {
     font-size: 48px;
     color: #f9faf8;
     font-weight: 800;
+    margin-bottom: -40px;
+    /* removes space between divs */
 }
 
 .para {
@@ -53,7 +66,7 @@ a {
     font-size: 18px;
 }
 
-button {
+.button1 {
     background-color: #3882f6;
     color: #f9faf8;
     width: 100px;
@@ -83,8 +96,18 @@ button {
     /* the image floats to the right of the div container */
     width: 80%;
     height: auto;
+    padding-top: 60px;
 }
 /* ----------------------------------------------------------------- */
+.second {
+    /* background-color: red; */
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+
+
 .second-one {
     text-align: center;
     
@@ -95,17 +118,20 @@ button {
 .images {
     /* background-color: aqua; */
     display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .imgB {
     width: 100%;
     height: auto;
     /* setting width and height to 100% and auto helped fix overflowing content from the container */
+    border: 6px solid #3882f6;
+    border-radius: 5px;
+    /* setting border and border-radius on the images gives it a thick blue border  */
 }
 
-/* figure {
-    background-color: bisque;
-} */
+
 
 figcaption {
     text-align: center;
@@ -122,21 +148,78 @@ figcaption {
 
 .third {
     background-color: #e5e7eb;
+    padding: 80px;
 }
 
 .third-one {
     font-size: 36px;
     font-style: italic;
     color: #1f2937;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 .third-two {
     font-weight: bold;
+    text-align: right;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 /* --------------------------------------------------------------------------------------- */
 
+.fourth {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882f6;
+    margin: 100px;
+    border-radius: 5px;
+    /* this div has rounded border radius  */
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.button2 {
+    background-color: #3882f6;
+    color: #f9faf8;
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 0;
+    /* this makes the button look flat rather then the default 3d look */
+    font-weight: bold;
+    border: 2px solid #f9faf8;
+    /* white colored border to button2  */
+    /* the 'border' property has to be specified in the end otherwise does not work  */
+}
+
+.fourth-one {
+    /* background-color: aqua; */
+    margin: auto;
+}
+
+.four-h3 {
+    color: #f9faf8;
+    margin-bottom: -10px;
+    /* removes space between two elements  */
+}
+
+.four-p {
+    color: #e5e7eb;
+}
+
+.fourth-two {
+    /* background-color: aquamarine; */
+    margin: auto;
+    
+}
+
+/* ---------------------------------------------------------------------------------------------- */
+
 footer {
     background-color: #1f2937;
     color: #f9faf8;
+    padding: 20px;
+    text-align: center;
 }
